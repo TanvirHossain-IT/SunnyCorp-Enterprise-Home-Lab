@@ -98,15 +98,15 @@ For SunnyCorp, these attempts were **authorized simulations**. We created a secu
 
 ## 📚 Explore the project
 
-**All six technical walkthroughs are now available** in the [SunnyCorp Documentation Hub](docs/README.md). Sanitized screenshots, selected scripts, and the report will be added and verified separately before the repository is made public.
+**All six technical walkthroughs are now available** in the [SunnyCorp Documentation Hub](docs/README.md). The repository also contains a tested failed-login detection script, a draft central-event review script, a sanitized investigation report and an evidence checklist. **Original screenshots are still pending review and upload.**
 
 | Section | What you'll find |
 |:--|:--|
 | **[Documentation hub](docs/README.md)** | **Six complete guides**: [01 Network](docs/phase-01-networking.md) · [02 Active Directory](docs/phase-02-active-directory.md) · [03 Employees](docs/phase-03-users-and-policy.md) · [04 File Server](docs/phase-04-file-server.md) · [05 Security](docs/phase-05-administration-security.md) · [06 Monitoring](docs/phase-06-security-monitoring.md) |
-| `scripts/` *(planned)* | PowerShell scripts used or adapted from the lab |
-| `evidence/` *(planned)* | Screenshots that demonstrate real test results |
+| **[Scripts](scripts/README.md)** | Local failed-login detector (tested in lab) and central event review script (draft) |
+| **[Evidence checklist](evidence/README.md)** | Specific screenshots to collect, with privacy and validation checks; uploads pending |
 | `diagrams/` *(planned)* | Clear visuals of how the system works |
-| `reports/` *(planned)* | Incident response write-up |
+| **[IR-001 investigation](reports/IR-001-Security-Investigation.md)** | Sanitized reconstruction of the authorized SOC security investigation |
 | `assets/` | Visual branding for this README |
 
 ### Key terms, without the jargon
