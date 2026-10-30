@@ -1,28 +1,28 @@
 # SunnyCorp — Evidence & Screenshot Guide
 
-**Status:** The repository structure and documentation are in place. Individual screenshot files have **not yet been uploaded** to this folder.
+**Status:** 19 original lab screenshot PNG files have been uploaded and are available in the [Evidence Gallery](GALLERY.md). The final privacy review remains pending.
 
-Screenshots shown in the original ChatGPT lab conversation are not automatically available as files in GitHub. We will reuse existing images **only after they have been saved and inspected**, and retake unclear screenshots as needed.
+The curated screenshots were extracted from the original lab conversation and uploaded to this folder. Each should still be reviewed before changing repository visibility to public.
 
 ## Evidence to gather
 
 | Priority | Suggested file name | Proves | Status |
 |---|---|---|---|
-| 1 | `01-network-topology.png` | Network/VM addressing and connectivity | Pending upload |
-| 2 | `02-domain-join.png` | SUNNY-CL01 joined to `corp.sunnylab.test` | Pending upload |
-| 3 | `03-department-groups.png` | Employees organized into groups | Pending upload |
-| 4 | `04-hr-drive-mapping.png` | HR employee automatically gets `H:` | Pending upload |
-| 5 | `05-cross-department-access-denied.png` | HR account denied access to Finance | Pending upload |
-| 6 | `06-employee-offboarding.png` | Disabled Alex account login rejected | Pending upload |
-| 7 | `07-local-admin-gpo.png` | Workstation admin group applied | Pending upload |
-| 8 | `08-laps-encrypted-backup.png` | LAPS backup and authorized decryptor **without password** | Pending upload |
-| 9 | `09-defender-pua-block.png` | Defender PUAProtection = 1 | Pending upload |
-| 10 | `10-firewall-effective-policy.png` | Firewall LogBlocked = True, 20 MB limit | Pending upload |
-| 11 | `11-remote-it-session.png` | Remote PowerShell identifies SUNNY-CL01 and admin identity | Pending upload |
-| 12 | `12-file-auditing-4663.png` | Audited HR file write | Pending upload |
-| 13 | `13-wef-forwarded-events.png` | Actual 4624/4625/4672 events received centrally | Pending upload |
-| 14 | `14-detection-script-alert.png` | Repeated login alert in lab | Pending upload |
-| 15 | `15-account-security-audit.png` | AD Events 4720, 4725, 4728 | Pending upload |
+| 1 | `01-network-topology.png` | Network/VM addressing and connectivity | Uploaded |
+| 2 | `02-domain-join.png` | SUNNY-CL01 joined to `corp.sunnylab.test` | Uploaded |
+| 3 | `03-department-groups.png` | Employees organized into groups | Uploaded |
+| 4 | `04-hr-drive-mapping.png` | HR employee automatically gets `H:` | Uploaded |
+| 5 | `05-cross-department-access-denied.png` | HR account denied access to Finance | Uploaded |
+| 6 | `06-employee-offboarding.png` | Disabled Alex account login rejected | Uploaded |
+| 7 | `07-local-admin-gpo.png` | Workstation admin group applied | Uploaded |
+| 8 | `08-laps-encrypted-backup.png` | LAPS backup and authorized decryptor **without password** | Uploaded |
+| 9 | `09-defender-pua-block.png` | Defender PUAProtection = 1 | Uploaded |
+| 10 | `10-firewall-effective-policy.png` | Firewall LogBlocked = True, 20 MB limit | Uploaded |
+| 11 | `11-remote-it-session.png` | Remote PowerShell identifies SUNNY-CL01 and admin identity | Uploaded |
+| 12 | `12-file-auditing-4663.png` | Audited HR file write | Uploaded |
+| 13 | `13-wef-forwarded-events.png` | Actual 4624/4625/4672 events received centrally | Uploaded |
+| 14 | `14-detection-script-alert.png` | Repeated login alert in lab | Uploaded |
+| 15 | `15-account-security-audit.png` | AD Events 4720, 4725, 4728 | Uploaded |
 
 ## What a useful screenshot should show
 
@@ -44,6 +44,6 @@ Screenshots shown in the original ChatGPT lab conversation are not automatically
 
 ## Evidence vs explanation
 
-The phase guides currently describe tests observed during the hands-on build. They are not a claim that all original screenshots have been committed. We will link screenshots from those guides only once the actual files have been added.
+The phase guides currently describe tests observed during the hands-on build. They are not a claim that all original screenshots have been committed. The technical phase guides now link to uploaded original screenshots.
 
 [← Return to homepage](../README.md)
