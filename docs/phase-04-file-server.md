@@ -88,4 +88,21 @@ Enabled **Success and Failure** File System auditing on SUNNY-FS01 and configure
 
 We tested representative users and the HR audit rule, not every possible user/file combination. File System auditing alone does not guarantee a record for every rejected SMB connection; share-access auditing requires its own setup. Screenshots will be added only after reviewing them for sensitive data.
 
+
+## Original evidence screenshots
+
+**HR drive mapping**
+
+![HR drive mapping](../evidence/06-hr-network-drive.png)
+
+**Finance access denied**
+
+![Finance access denied](../evidence/07-finance-access-denied.png)
+
+**Audited HR file access**
+
+![Audited HR file access](../evidence/08-hr-file-access-audit.png)
+
+[Browse all screenshots](../evidence/GALLERY.md)
+
 [← Phase 03](phase-03-users-and-policy.md) · [Next: Phase 05 →](phase-05-administration-security.md)
