@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+<title id="title">SunnyCorp — Enterprise IT and Cybersecurity Lab</title>
+<desc id="desc">Navy corporate banner about building, managing, and protecting a simulated 50-employee business.</desc>
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0%" stop-color="#0B1D33"/><stop offset="68%" stop-color="#143A61"/><stop offset="100%" stop-color="#1C5B87"/></linearGradient><linearGradient id="card" x1="0" x2="1" y1="0" y2="1"><stop offset="0%" stop-color="#264F78"/><stop offset="100%" stop-color="#1C3E61"/></linearGradient></defs>
+<rect width="1280" height="320" rx="20" fill="url(#bg)"/>
+<circle cx="1180" cy="-30" r="240" fill="#FFFFFF" opacity=".035"/><circle cx="1255" cy="260" r="220" fill="#A4D8FF" opacity=".045"/>
+<path d="M42 55 H1238" stroke="#8BB7D8" stroke-opacity=".30"/>
+<g transform="translate(62 87)"><rect width="68" height="68" rx="16" fill="#FFFFFF" opacity=".12"/><path d="M18 43V25l16-10 16 10v18M12 43h44M27 43V30h14v13" stroke="#E6F5FF" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="34" cy="19" r="2" fill="#A7DDFB"/></g>
+<text x="152" y="112" fill="#FFFFFF" font-family="Segoe UI,Arial,sans-serif" font-size="56" font-weight="700" letter-spacing="0.3">SunnyCorp</text>
+<text x="154" y="153" fill="#C7E1F4" font-family="Segoe UI,Arial,sans-serif" font-size="23">Enterprise IT &amp; Cybersecurity Home Lab</text>
+<text x="64" y="218" fill="#EAF4FC" font-family="Segoe UI,Arial,sans-serif" font-size="19">Build the business. Manage its people. Protect its systems.</text>
+<g transform="translate(64 242)" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#E9F4FF">
+<rect x="0" y="0" width="151" height="34" rx="8" fill="url(#card)" stroke="#7DADCE" stroke-opacity=".5"/><text x="18" y="22">50 employees</text>
+<rect x="163" y="0" width="158" height="34" rx="8" fill="url(#card)" stroke="#7DADCE" stroke-opacity=".5"/><text x="181" y="22">5 departments</text>
+<rect x="333" y="0" width="180" height="34" rx="8" fill="url(#card)" stroke="#7DADCE" stroke-opacity=".5"/><text x="351" y="22">3 virtual machines</text>
+</g>
+<g transform="translate(930 88)" stroke="#B2DFFA" stroke-width="2.5" fill="none" stroke-linejoin="round">
+<rect x="87" y="0" width="85" height="60" rx="8" fill="#1E4E72"/><path d="M100 18h59M100 33h59M100 47h59"/><circle cx="106" cy="10" r="2.5" fill="#5DD3C1" stroke="none"/>
+<rect x="0" y="109" width="92" height="66" rx="8" fill="#1E4E72"/><path d="M17 128h58M17 143h58M17 158h58"/><circle cx="23" cy="119" r="2.5" fill="#5DD3C1" stroke="none"/>
+<rect x="166" y="109" width="92" height="66" rx="8" fill="#1E4E72"/><path d="M180 154h64M192 163h41M192 122h41v29h-41z"/><circle cx="212" cy="137" r="5"/>
+<path d="M130 60v23H46v26M130 83h82v26" stroke-dasharray="5 6"/>
+<circle cx="130" cy="83" r="5" fill="#72D2C8" stroke="none"/>
+</g>
+</svg>
