@@ -88,4 +88,33 @@ From SUNNY-DC01, authenticated using `adm.james.wilson` and ran remote commands 
 
 Employee lifecycle management · Active Directory administration · GPO · Least privilege · Windows LAPS · Defender · Windows Firewall · WinRM · Patch assessment · Privilege auditing
 
+
+## Original evidence screenshots
+
+**Offboarded account blocked**
+
+![Offboarded account blocked](../evidence/09-disabled-user-login.png)
+
+**Admin account separated**
+
+![Admin account separated](../evidence/10-separated-admin-identity.png)
+
+**Encrypted Windows LAPS result**
+
+![Encrypted Windows LAPS result](../evidence/11-encrypted-laps-backup.png)
+
+**Defender PUA blocking**
+
+![Defender PUA blocking](../evidence/12-defender-pua-blocking.png)
+
+**Effective firewall logging**
+
+![Effective firewall logging](../evidence/13-firewall-effective-logging.png)
+
+**Remote administrator session**
+
+![Remote administrator session](../evidence/14-remote-it-administration.png)
+
+[Browse all screenshots](../evidence/GALLERY.md)
+
 [← Phase 04](phase-04-file-server.md) · [Next: Phase 06 →](phase-06-security-monitoring.md)
