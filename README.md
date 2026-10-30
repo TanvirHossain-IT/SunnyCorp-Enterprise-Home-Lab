@@ -6,7 +6,7 @@
 
 **A hands-on Windows enterprise lab designed to show how IT teams build, operate, protect, and monitor a business.**
 
-![Status](https://img.shields.io/badge/Lab_phases-6%2F6_complete-195A83?style=flat-square) ![Environment](https://img.shields.io/badge/Environment-Isolated_virtual_lab-315E84?style=flat-square) ![Documentation](https://img.shields.io/badge/Documentation-In_progress-627B94?style=flat-square)
+![Status](https://img.shields.io/badge/Lab_phases-6%2F6_complete-195A83?style=flat-square) ![Environment](https://img.shields.io/badge/Environment-Isolated_virtual_lab-315E84?style=flat-square) ![Portfolio](https://img.shields.io/badge/Portfolio-Assembled-627B94?style=flat-square)
 
 </div>
 
@@ -132,3 +132,7 @@ This project uses fictional employee accounts, an isolated test domain, and synt
 *Built as an independent, hands-on learning and portfolio project.*
 
 </div>
+
+## Final validation and safe publication
+
+The portfolio is assembled and the original evidence is linked throughout the guides. See the [final verification report](docs/FINAL-VALIDATION.md) and [security/publication policy](SECURITY.md) before making the repository public. One new central-event analysis script still needs a full live Windows run, and some later forwarded events were not verified at the collector.
