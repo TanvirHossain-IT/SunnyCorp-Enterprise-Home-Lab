@@ -74,4 +74,13 @@ This is an educational host-only lab, not a redundant production enterprise netw
 
 With the private network running, we could build the company's central login system.
 
+
+## Original evidence screenshots
+
+**Verified private-network connectivity**
+
+![Verified private-network connectivity](../evidence/01-network-connectivity.png)
+
+[Browse all screenshots](../evidence/GALLERY.md)
+
 [Next: Phase 02 — Active Directory →](phase-02-active-directory.md) · [All chapters](README.md)
