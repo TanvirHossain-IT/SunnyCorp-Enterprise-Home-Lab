@@ -43,3 +43,7 @@ The guides document completed hands-on work. Selected original PowerShell files,
 **Security:** Never commit temporary credentials, secrets, cached LAPS passwords, certificates/private keys, tokens, or raw machine exports. Review screenshots for identifiers and passwords before publishing.
 
 [← Back to SunnyCorp homepage](../README.md)
+
+## Final review
+
+[Final verification and handoff](FINAL-VALIDATION.md) · [Security/publication policy](../SECURITY.md)
