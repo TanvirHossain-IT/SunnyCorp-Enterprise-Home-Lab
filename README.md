@@ -105,7 +105,7 @@ For SunnyCorp, these attempts were **authorized simulations**. We created a secu
 | **[Documentation hub](docs/README.md)** | **Six complete guides**: [01 Network](docs/phase-01-networking.md) · [02 Active Directory](docs/phase-02-active-directory.md) · [03 Employees](docs/phase-03-users-and-policy.md) · [04 File Server](docs/phase-04-file-server.md) · [05 Security](docs/phase-05-administration-security.md) · [06 Monitoring](docs/phase-06-security-monitoring.md) |
 | **[Scripts](scripts/README.md)** | Local failed-login detector (tested in lab) and central event review script (draft) |
 | **[Evidence gallery](evidence/GALLERY.md)** | 19 real lab screenshots, captioned and linked from the technical guides |
-| `diagrams/` *(planned)* | Clear visuals of how the system works |
+| **[Architecture diagrams](diagrams/README.md)** | Three navy-and-white diagrams showing networking, access control, and security monitoring |
 | **[IR-001 investigation](reports/IR-001-Security-Investigation.md)** | Sanitized reconstruction of the authorized SOC security investigation |
 | `assets/` | Visual branding for this README |
 
