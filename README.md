@@ -98,11 +98,11 @@ For SunnyCorp, these attempts were **authorized simulations**. We created a secu
 
 ## 📚 Explore the project
 
-**This repository is being assembled phase by phase.** The overview is ready; detailed walkthroughs, sanitized screenshots, selected scripts, and the final report will be added and verified before the repository is made public.
+**All six technical walkthroughs are now available** in the [SunnyCorp Documentation Hub](docs/README.md). Sanitized screenshots, selected scripts, and the report will be added and verified separately before the repository is made public.
 
 | Section | What you'll find |
 |:--|:--|
-| `docs/` *(planned)* | Beginner-friendly stories plus detailed configuration steps |
+| **[Documentation hub](docs/README.md)** | **Six complete guides**: [01 Network](docs/phase-01-networking.md) · [02 Active Directory](docs/phase-02-active-directory.md) · [03 Employees](docs/phase-03-users-and-policy.md) · [04 File Server](docs/phase-04-file-server.md) · [05 Security](docs/phase-05-administration-security.md) · [06 Monitoring](docs/phase-06-security-monitoring.md) |
 | `scripts/` *(planned)* | PowerShell scripts used or adapted from the lab |
 | `evidence/` *(planned)* | Screenshots that demonstrate real test results |
 | `diagrams/` *(planned)* | Clear visuals of how the system works |
