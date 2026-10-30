@@ -106,4 +106,17 @@ This is a demonstration with synthetic identities and a small number of workstat
 
 With people and policies created, we were ready to build shared file storage.
 
+
+## Original evidence screenshots
+
+**Fictional employee accounts**
+
+![Fictional employee accounts](../evidence/04-fifty-department-employees.png)
+
+**Department groups**
+
+![Department groups](../evidence/05-department-security-groups.png)
+
+[Browse all screenshots](../evidence/GALLERY.md)
+
 [← Phase 02](phase-02-active-directory.md) · [Next: Phase 04 — File Server →](phase-04-file-server.md)
