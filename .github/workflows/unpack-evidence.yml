@@ -1,0 +1,44 @@
+name: Organize SunnyCorp evidence screenshots
+
+on:
+  push:
+    paths:
+      - '.github/workflows/unpack-evidence.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out private lab repository
+        uses: actions/checkout@v4
+
+      - name: Extract the original screenshots and validate count
+        shell: bash
+        run: |
+          set -euo pipefail
+          ARCHIVE="evidence/SunnyCorp_Original_Chat_Evidence_Package.zip"
+          test -f "$ARCHIVE"
+          unzip -o "$ARCHIVE" 'evidence/*.png' -d .
+          count="$(find evidence -maxdepth 1 -type f -name '*.png' | wc -l | tr -d ' ')"
+          echo "Extracted PNGs: $count"
+          test "$count" = "19"
+          file evidence/*.png
+          rm "$ARCHIVE"
+
+      - name: Commit the 19 original screenshots
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/
+          if git diff --cached --quiet; then
+            echo "Evidence was already organized."
+          else
+            git commit -m "Organize 19 original SunnyCorp lab screenshots"
+            git push
+          fi
