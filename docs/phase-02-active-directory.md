@@ -88,4 +88,17 @@ This project uses one Domain Controller for learning. Real businesses need backu
 
 Once we had a central login system, we created the company's employees and security rules.
 
+
+## Original evidence screenshots
+
+**Domain Controller setup**
+
+![Domain Controller setup](../evidence/02-active-directory-promotion.png)
+
+**Domain-joined workstation**
+
+![Domain-joined workstation](../evidence/03-domain-joined-workstation.png)
+
+[Browse all screenshots](../evidence/GALLERY.md)
+
 [← Phase 01](phase-01-networking.md) · [Next: Phase 03 — Employees & policies →](phase-03-users-and-policy.md)
