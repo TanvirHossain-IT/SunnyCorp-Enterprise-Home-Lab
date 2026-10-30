@@ -111,4 +111,29 @@ wecutil gr "SunnyCorp - Workstation Security Monitoring"
 
 This is a small, isolated WEF deployment and manually executed detection, **not** a production SIEM or around-the-clock monitoring service. There is no guarantee of comprehensive log coverage, 24/7 alerting, or automatic incident response.
 
+
+## Original evidence screenshots
+
+**Failed-login script result**
+
+![Failed-login script result](../evidence/15-failed-login-detection.png)
+
+**Forwarded security events**
+
+![Forwarded security events](../evidence/16-centralized-event-forwarding.png)
+
+**Centralized failed-logon records**
+
+![Centralized failed-logon records](../evidence/17-forwarded-failed-logins.png)
+
+**AD account lifecycle evidence**
+
+![AD account lifecycle evidence](../evidence/18-account-lifecycle-events.png)
+
+**Administrator group-change audit**
+
+![Administrator group-change audit](../evidence/19-admin-group-change-event.png)
+
+[Browse all screenshots](../evidence/GALLERY.md)
+
 [← Phase 05](phase-05-administration-security.md) · [All chapters](README.md)
